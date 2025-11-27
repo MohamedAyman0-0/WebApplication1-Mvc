@@ -27,7 +27,7 @@ namespace WebApplication1_Mvc
             webapplicationbuilder.Services.AddControllersWithViews(); 
             #endregion
 
-            var app=webapplicationbuilder.Build(); 
+            var app=webapplicationbuilder.Build();  
 
             #region configure
             if (app.Environment.IsDevelopment())
